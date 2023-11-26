@@ -1,0 +1,33 @@
+.flex-container{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 20px;
+    
+}
+.con-1{
+    flex: 1 1 25%;
+    background-color: brown;
+
+}
+.con-2{
+    flex: 1 1 75%;
+    display: flex;
+    gap: 20px;
+
+}
+.con-2-1{
+    background-color: palevioletred;
+    flex: 1 1 25%;
+
+}
+.con2-2{
+    background-color: blue;
+    flex: 1 1 25%;
+
+}
+.con-3{
+    background-color: black;
+    display: flex;
+    flex: 1 1 25%;
+}
